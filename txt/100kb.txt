@@ -1,0 +1,1375 @@
+2020-02-06 03:18:06.750797 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:06.751797 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:07.001797 D trk Th{6366} [io/src/timer_wrap.cpp:272] handleEvent()  ptr: 0x00007FFA0C009220 fired
+2020-02-06 03:18:07.001797 D trk Th{6366} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:07.001797 D trk Th{6366} [io/src/timer_wrap.cpp:245] setSingleShot()  ptr: 0x00007FFA0C009220 10000 ms
+2020-02-06 03:18:07.236797 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:07.236797 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:07.236797 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:07.341797 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:07.341797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 1729223296538875683 allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:07.341797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:07.373797 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:07.373797 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:07.373797 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:07.390797 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:07.390797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 1729223296538875683 not allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:07.390797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:08.524797 D trk Th{6297} [doms/src/trk_driver/apc.cpp:115] sendMessage() Doms. Sending a message: FpStatus3::Req: { fpId: 0 }
+2020-02-06 03:18:08.524797 D trk Th{6297} [doms/src/trk_driver/apc.cpp:116] sendMessage() Doms. Message dump: 01 15 03 00
+2020-02-06 03:18:08.555797 D trk Th{6297} [doms/src/trk_driver/apc.cpp:184] readAnswer() Doms. Message decoded: 01 FE 00 95 03 08 1F 01 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 02 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 03 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 04 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 05 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 06 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1B 07 23 02 56 00 00 06 01 01 01 02 02 01 23 03 02 01 05 10 01 01 11 01 01 16 01 00 1C 08 23 02 56 00 00 06 01 01 01 02 02 01 23 03 03 02 05 05 10 01 01 11 01 01 16 01 00
+2020-02-06 03:18:08.555797 D trk Th{6297} [doms/src/trk_driver/apc.cpp:91] createMessage() Doms. Message recv: MultiMessage::Reply: { 
+                                ..m_repExtMsgCode: 0x0095
+                                ..m_repMsgSubc: 0x03
+                                ..m_list (8pcs): [
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 1
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 2
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 3
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 4
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 5
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 6
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 7
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(1pcs): [ 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 8
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(2pcs): [ 5, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....}
+                                ..]
+                                }
+2020-02-06 03:18:09.155797 D trk Th{6297} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:09.341797 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:09.341797 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:09.341797 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:09.350797 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:09.350797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 1729223296538875683 allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:09.350797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:09.390797 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:09.390797 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:09.390797 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:09.397797 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:09.397797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 1729223296538875683 not allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:09.397797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:09.481797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:09.481797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:09.482797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 1729223296538875683
+2020-02-06 03:18:09.482797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 1729223296538875683ping ok
+2020-02-06 03:18:09.482797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:09.482797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:09.482797 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:10.187797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC015230
+2020-02-06 03:18:10.189797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9B4182190
+2020-02-06 03:18:10.190797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC0069F0
+2020-02-06 03:18:10.191797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC010530
+2020-02-06 03:18:10.193797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC011400
+2020-02-06 03:18:10.194797 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC006CC0
+2020-02-06 03:18:11.350797 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:11.350797 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:11.350797 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:11.358797 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:11.358797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 1729223296538875683 allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:11.358797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:11.397797 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:11.397797 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:11.397797 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:11.404797 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:11.404797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 1729223296538875683 not allowed seller_place = operator_UI tmp= 2 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:11.404797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:11.751797 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:11.751797 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:12.483797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:12.483797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:12.483797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 1729223296538875683
+2020-02-06 03:18:12.484797 I system Th{6304} [corba/cbmodule_srv_impl.cpp:959] ping_clients() dead client found
+2020-02-06 03:18:12.484797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:12.485797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:12.485797 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=1
+2020-02-06 03:18:12.485797 I system Th{21848} [corba/cbmodule_srv_impl.cpp:272] run() Invalid session 1729223296538875683 found. Added to dead list
+2020-02-06 03:18:12.485797 I system Th{21848} [corba/cbmodule_srv_impl.cpp:319] run() Removeing orphaned trans for session cans= ToCancel{ sid=1729223296538875683 nct=[], sct=[552] }
+2020-02-06 03:18:12.485797 I sale Th{21848} [mcs/sale_service.cpp:1821] release_resources_by_session() session = 1729223296538875683 
+2020-02-06 03:18:12.485797 I system Th{21848} [corba/cash_account_service.cpp:1831] release_resources_by_session()  lsid=NIL sid=1729223296538875683
+2020-02-06 03:18:12.485797 I user Th{21848} [corba/cbmodule_srv_impl.cpp:344] run() send cancel to=552>
+2020-02-06 03:18:12.485797 I system Th{21849} [corba/corba_utils.cpp:287] getObjectReference() getObjectReference: client try to do rir
+2020-02-06 03:18:12.485797 I system Th{21850} [corba/corba_utils.cpp:287] getObjectReference() getObjectReference: client try to do rir
+2020-02-06 03:18:12.486797 W system Th{21852} [corba/trk_monitor_adapter2.cpp:553] sessions_halted() Unsubscribe halted client (key, sid): (25, 1729223296538875683)
+2020-02-06 03:18:12.486797 W system Th{21853} [corba/sale_server.cpp:310] sessions_halted() Unsubscribe halted shiftstate client (key, sid): (24, 1729223296538875683)
+2020-02-06 03:18:12.486797 I system Th{21849} [corba/corba_utils.cpp:319] getObjectReference() getObjectReference: resolved
+2020-02-06 03:18:12.486797 I system Th{21850} [corba/corba_utils.cpp:319] getObjectReference() getObjectReference: resolved
+2020-02-06 03:18:12.486797 E system Th{21849} [corba/corba_utils.cpp:323] getObjectReference() Context not found.
+2020-02-06 03:18:13.358797 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:13.358797 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:13.358797 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:13.367797 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:13.367797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:13.405797 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:13.405797 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:13.405797 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:13.412797 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:13.412797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:15.367797 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:15.368797 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:15.368797 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:15.376797 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:15.376797 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:15.412797 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:15.412797 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:15.412797 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:15.418797 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:15.418797 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:15.485797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:15.485797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:15.485797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:15.486797 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:15.486797 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:16.751798 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:16.751798 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:17.002798 D trk Th{6366} [io/src/timer_wrap.cpp:272] handleEvent()  ptr: 0x00007FFA0C009220 fired
+2020-02-06 03:18:17.002798 D trk Th{6366} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:17.002798 D trk Th{6366} [io/src/timer_wrap.cpp:245] setSingleShot()  ptr: 0x00007FFA0C009220 10000 ms
+2020-02-06 03:18:17.376798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:17.376798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:17.376798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:17.385798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:17.385798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:17.418798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:17.418798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:17.419798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:17.425798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:17.425798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:18.486798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:18.487798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:18.487798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:18.487798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:18.487798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:19.060798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:19.314798 D system Th{6312} [corba/sale_server_tms_watcher.cpp:112] run() TMSWatcher poll
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=8387.940 min_book_rest=750.000 mass=6337.800 first=1 petrol=1000054 petrol_name=GD100(АИ-100)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=12311.630 min_book_rest=747.000 mass=8912.378 first=2 petrol=1000003 petrol_name=GD95(АИ-95)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=25725.210 min_book_rest=2453.000 mass=-4221.601 first=3 petrol=1000081 petrol_name=АИ-95(АИ-95)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=22362.340 min_book_rest=1672.000 mass=-1639.507 first=4 petrol=1000033 petrol_name=АИ-92(АИ-92)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=19130.610 min_book_rest=1645.000 mass=5857.970 first=5 petrol=1000051 petrol_name=ДТОПТИ(ДТ-З)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:287] get_all_data_locked()  push to map= vol=25980.110 min_book_rest=2365.000 mass=11394.182 first=6 petrol=1000051 petrol_name=ДТОПТИ(ДТ-З)
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=7510.780 vol=8387.940 mbr=750.000
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=11110.980 vol=12311.630 mbr=747.000
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=22138.050 vol=25725.210 mbr=2453.000
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=19442.030 vol=22362.340 mbr=1672.000
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=16468.080 vol=19130.610 mbr=1645.000
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:204] db_resync_() Time to db-resync can rests doesn't came yet. Last sync was: 59982 msec ago
+2020-02-06 03:18:19.314798 D system Th{21878} [corba/rests_server.cpp:95] BookRestCaller()  acc_vol2=22323.170 vol=25980.110 mbr=2365.000
+2020-02-06 03:18:19.315798 D system Th{21878} [corba/rests_server.cpp:111] call_allowed() m_sid=NIL sid=9081255113048536069
+2020-02-06 03:18:19.315798 D system Th{21878} [corba/rests_server.cpp:121] call_method() m_sid=NIL sz=6
+2020-02-06 03:18:19.385798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:19.385798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:19.385798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:19.393798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:19.393798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:19.426798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:19.426798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:19.426798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:19.433798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:19.433798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:20.569798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC010E60
+2020-02-06 03:18:20.570798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC015230
+2020-02-06 03:18:20.572798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9B4182190
+2020-02-06 03:18:20.574798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC0069F0
+2020-02-06 03:18:20.577798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC010530
+2020-02-06 03:18:20.578798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC011400
+2020-02-06 03:18:21.394798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:21.394798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:21.394798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:21.403798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:21.403798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:21.433798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:21.433798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:21.433798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:21.440798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:21.440798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:21.487798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:21.488798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:21.488798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:21.488798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:21.488798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:21.752798 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:21.752798 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:23.403798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:23.404798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:23.404798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:23.413798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:23.413798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:23.441798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:23.441798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:23.441798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:23.448798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:23.448798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:24.488798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:24.489798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:24.489798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:24.489798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:24.489798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:25.413798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:25.414798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:25.414798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:25.423798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:25.423798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:25.448798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:25.448798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:25.448798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:25.455798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:25.455798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:26.752798 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:26.752798 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:27.002798 D trk Th{6366} [io/src/timer_wrap.cpp:272] handleEvent()  ptr: 0x00007FFA0C009220 fired
+2020-02-06 03:18:27.002798 D trk Th{6366} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:27.002798 D trk Th{6366} [io/src/timer_wrap.cpp:245] setSingleShot()  ptr: 0x00007FFA0C009220 10000 ms
+2020-02-06 03:18:27.423798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:27.423798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:27.424798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:27.433798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:27.433798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:27.456798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:27.456798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:27.456798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:27.463798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:27.463798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:27.490798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:27.490798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:27.490798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:27.491798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:27.491798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:29.266798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:29.433798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:29.433798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:29.433798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:29.445798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:29.445798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:29.463798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:29.463798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:29.463798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:29.470798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:29.470798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:29.566798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:115] sendMessage() Doms. Sending a message: FpStatus3::Req: { fpId: 0 }
+2020-02-06 03:18:29.566798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:116] sendMessage() Doms. Message dump: 01 15 03 00
+2020-02-06 03:18:29.596798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:184] readAnswer() Doms. Message decoded: 01 FE 00 95 03 08 1F 01 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 02 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 03 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 04 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 05 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1F 06 23 02 56 00 00 06 01 01 01 02 02 01 23 03 06 05 01 02 03 04 05 10 01 01 11 01 01 16 01 00 1B 07 23 02 56 00 00 06 01 01 01 02 02 01 23 03 02 01 05 10 01 01 11 01 01 16 01 00 1C 08 23 02 56 00 00 06 01 01 01 02 02 01 23 03 03 02 05 05 10 01 01 11 01 01 16 01 00
+2020-02-06 03:18:29.597798 D trk Th{6297} [doms/src/trk_driver/apc.cpp:91] createMessage() Doms. Message recv: MultiMessage::Reply: { 
+                                ..m_repExtMsgCode: 0x0095
+                                ..m_repMsgSubc: 0x03
+                                ..m_list (8pcs): [
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 1
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 2
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 3
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 4
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 5
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 6
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(5pcs): [ 1, 2, 3, 4, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 7
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(1pcs): [ 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....},
+                                ....FpStatus3::Reply: { 
+                                ......fpId: 8
+                                ......activeSmId: 23
+                                ......mainState: FMS_Idle(2)
+                                ......subStates: lVOsBeAp
+                                ......lockId: 0
+                                ......gradeId: 0
+                                ......supStPars: FpSupStatusPars(6pcs): [ 
+                                ........SubStates2(1): [T__ml__s],
+                                ........AvailSms(2): [List(1pcs): [ 23]],
+                                ........AvailGrades(3): [List(2pcs): [ 5, 5]],
+                                ........OpMode(10): [1],
+                                ........PgId(11): [1],
+                                ........SubStates4(16): [pn]
+                                ......]
+                                ....}
+                                ..]
+                                }
+2020-02-06 03:18:30.491798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:30.491798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:30.491798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:30.492798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:30.492798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:30.969798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC006CC0
+2020-02-06 03:18:30.969798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC010E60
+2020-02-06 03:18:30.970798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC015230
+2020-02-06 03:18:30.970798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9B4182190
+2020-02-06 03:18:30.970798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC0069F0
+2020-02-06 03:18:30.970798 D system Th{6374} [TMS/TMS_internal.cpp:13] ~TMSTankMeasure() Dtor: 0x00007FF9BC010530
+2020-02-06 03:18:31.445798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:31.445798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:31.445798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:31.454798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:31.454798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:31.471798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:31.471798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:31.471798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:31.478798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:31.478798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:31.752798 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:31.752798 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:33.455798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:33.455798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:33.455798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:33.465798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:33.465798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:33.478798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:33.478798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:33.478798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:33.485798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:33.485798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:33.492798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:33.492798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:33.492798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:33.493798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:33.493798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:35.465798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:35.465798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:35.465798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:35.475798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:35.475798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:35.486798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:35.486798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:35.486798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:35.493798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:35.493798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:36.493798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 3458430551181654012
+2020-02-06 03:18:36.494798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 3458430551181654012ping ok
+2020-02-06 03:18:36.494798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:955] ping_clients() Begin pinging session: 9081255113048536069
+2020-02-06 03:18:36.494798 D system Th{6304} [corba/cbmodule_srv_impl.cpp:957] ping_clients() Session: 9081255113048536069ping ok
+2020-02-06 03:18:36.494798 I system Th{6304} [corba/cbmodule_srv_impl.cpp:966] ping_clients() rc=0
+2020-02-06 03:18:36.753798 D system Th{6327} [corba/pay_service_impl.cpp:701] run() Before NCTService ping ...
+2020-02-06 03:18:36.753798 D system Th{6327} [corba/pay_service_impl.cpp:719] run() NCTService ping ok
+2020-02-06 03:18:37.002798 D trk Th{6366} [io/src/timer_wrap.cpp:272] handleEvent()  ptr: 0x00007FFA0C009220 fired
+2020-02-06 03:18:37.002798 D trk Th{6366} [doms/src/trk_driver/apc.cpp:118] sendMessage() Doms. Sending heartbeat message
+2020-02-06 03:18:37.002798 D trk Th{6366} [io/src/timer_wrap.cpp:245] setSingleShot()  ptr: 0x00007FFA0C009220 10000 ms
+2020-02-06 03:18:37.475798 I sale Th{6306} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:37.475798 D sale Th{6306} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=2this data exists:
+2020-02-06 03:18:37.475798 I sale Th{6306} [mcs/fr_service.cpp:3185] dump_to_log()  on port:rfc2217://10.37.215.179:7220:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103361>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0412170003010722,
+                                  regno_str=0004241823050893    ,
+                                  last_z_number=44,
+                                  current_document=280,
+                                  current_document_fn=9881,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=28}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:37.485798 I sale Th{6306} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:37.485798 I sale Th{6306} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 2 & sessionid = 9081255113048536069 not allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
+2020-02-06 03:18:37.493798 I sale Th{6305} [mcs/fr_service.cpp:1026] run() shiftno=NILsstate=SHIFT_CLOSED is_first=0
+2020-02-06 03:18:37.493798 D sale Th{6305} [mcs/fr_service.cpp:1037] run() for  FrKeyForWP=1this data exists:
+2020-02-06 03:18:37.493798 I sale Th{6305} [mcs/fr_service.cpp:3185] dump_to_log()  on port:/dev/ttyS0:
+                                  with protocol protocol=<ШТРИХ:
+                                  all_valid=<11:>
+                                  m_z_valid=0>
+                                  m_ecrid=1103419>
+                                  ecrid_valid=1
+                                  m_ecr_last_result={ Error={ code=0,
+                                  level=0,
+                                  text=}
+                                   State={document=CLOSED,
+                                   device=WORKABLE,
+                                  printer=WORKABLE,
+                                  presenter=PRESENTER_UNDEFINED,
+                                  shift=CLOSED}
+                                  } m_info_valid=1: m_ecr_info={,
+                                  protocol=ШТРИХ,
+                                  model_name=РР-01Ф,
+                                  serial_str=0431390003010723,
+                                  regno_str=0004241845056845    ,
+                                  last_z_number=45,
+                                  current_document=9414,
+                                  current_document_fn=8930,
+                                  inn=7709359770  ,
+                                  is_commissioner=0,
+                                  tax_systems=mcs::TaxSystemSet=[TS_OSN],
+                                  fiscal_count_left=29}Time shift_open=[UNDEFINED][VALID SIGN=1]
+2020-02-06 03:18:37.501798 I sale Th{6305} [corba/fr_service_callback.cpp:41] call_allowed() No need to FR-callback to service postpay_delivery_runner. - No FR configured for that service
+2020-02-06 03:18:37.501798 I sale Th{6305} [corba/fr_service_callback.cpp:52] call_allowed() callback for fr_key_id = 1 & sessionid = 9081255113048536069 allowed seller_place = operator_UI tmp= 1 is_cash=0is_really_op_wp=1
